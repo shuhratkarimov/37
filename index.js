@@ -33,11 +33,11 @@ app.get("/", (req, res) => res.send("Bot ishlayapti!"));
 
 // 🚀 Har 5 daqiqada Render botni "tirik" deb bilishi uchun ping
 setInterval(() => {
-  fetch("https://ovoz-bot-90lu.onrender.com").catch(() => {});
+  fetch("https://three7-4fvo.onrender.com").catch(() => {});
 }, 5 * 60 * 1000); // 5 daqiqada bir ping
 
 // 🎧 Serverni ishga tushirish
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Keep-alive server ${PORT} portda ishlayapti`);
 });
